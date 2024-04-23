@@ -1,0 +1,3 @@
+O Python é uma linguagem de programação popular usada para desenvolvimento de software em várias áreas. 
+Dentre elas desenvolvimento web (front-end e back-end) e scripting.
+Também é usada para automação, scraping da web e programação competitiva.
