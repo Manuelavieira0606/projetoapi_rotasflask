@@ -15,3 +15,8 @@ Tutorial de instalação do Python
 
 O Virtualenv é uma ferramenta essencial para o desenvolvimento em Python
 permitindo a criação e gerenciamento de ambientes virtuais isolados para cada projeto.
+
+Criando o Virtualenv
+1. Abra o git bash no terminal
+2. Digite o código "python -m venv .venv"
+3. Ative o virtual env com o código "source .venv/Scripts/activate"
