@@ -2,7 +2,7 @@ O Python é uma linguagem de programação popular usada para desenvolvimento de
 Dentre elas desenvolvimento web (front-end e back-end) e scripting.
 Também é usada para automação, scraping da web e programação competitiva.
 
-Tutorial de instalação do Python
-1. Acesse a pagina oficial para fazer o download do instalador do Python na versão 3.8 e abra-o.
-2. Com o instalador aberto tenha certeza de marcar a opção "Add Python 3.8 to PATH" para que o comando fique disponível.
-3. Clique em "Install now" e siga o processo de instalação de programa no Windows (next, next, next, finish).
+tutorial de download do Python
+1.Acesse o site oficial do Python
+2.Escolha a versão correta do Python
+3.Clique em download
