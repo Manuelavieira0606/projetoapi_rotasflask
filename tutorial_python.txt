@@ -25,3 +25,10 @@ Instalando o Flask no Virtualenv
 1. Com o virtualenv ativado atualize o pip com o comando "python -m pip install --upgrade pip." (opcional)
 2. instale o flask com o comando "pip install flask"
 3. verifique a instalação com o "pip freeze"
+
+Passo a passo para configuração e sincronização do github com o repositório remoto
+1. Para acessar o repositório remoto, aesse o site do seu repositório e copie a URL completa 
+2. No repositório local, abra o terminal no diretório do seu projeto local. Utilize o comando "git remote add origin <URL_DO_REPOSITÓRIO_REMOTO>" para adicionar o repositório remoto com um nome de sua preferência para o repositório remoto e a URL copiada.
+3. Para verificar a configuração utilize o comando "git remote -v" para verificar se o repositório remoto foi adicionado corretamente.
+4. Para sincronizar com o repositório remoto basta buscar as últimas alterações do repositório remoto, utilize o comando "git fetch" e para enviar as alterações feitas utilize o comando "git push origin <NOME_DA_BRANCH>"
+
