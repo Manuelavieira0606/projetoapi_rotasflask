@@ -5,7 +5,7 @@ from random_data import *
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/", methods=("GET",))
 def index():
     return render_template("index.html")
 

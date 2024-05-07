@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='main.css')}}" />
+    <title>Dados de API</title>
+</head>
+<body>
+    
+    <h1>Site com dados de API</h1>
+    <div class="menu">
+        <div class="menu-item"><a href="{{ url_for('index') }}" aria-disabled="true" id="btn_index" role="button">Index</a></div>
+        <div class="menu-item"><a href="{{ url_for('api.maior50') }}" aria-disabled="true" id="btn_idades" role="button">Idades</a></div>
+        <div class="menu-item"><a href="{{ url_for('api.aleatorios') }}" aria-disabled="true" id="btn_aleatorios">Aleatorios</a></div>
+        <div class="menu-item"><a href="{{ url_for('api.mais2000') }}" aria-disabled="true" id="btn_salarios">Salarios</a></div>
+        <div class="menu-item"><a href="{{ url_for('api.tresmaioressalarios') }}" aria-disabled="true" id="btn_maiores_salarios">Maiores Salarios</a></div>
+    </div>
+
+    <div id="authors" class="container">
+        <p>Clique nos links acima para ver esta página mudar sem recarregar</p>
+    </div>
+    <script type="text/javascript" src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
