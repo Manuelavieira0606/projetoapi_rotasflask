@@ -29,3 +29,16 @@ body {
     font-size: 22pt;
     color: rgb(3, 106, 34);
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 10px;
+    border-color: #000;
+    border-left: 1px dotted;
+    border-top: 1px dotted;
+    margin-left: 5px;
+}
